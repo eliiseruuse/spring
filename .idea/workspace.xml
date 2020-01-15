@@ -1,10 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4540700f-1b18-4972-a3ce-b21b490c4f1a" name="Default Changelist" comment="spring">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eliise/learningspringboot/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eliise/learningspringboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eliise/learningspringboot/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eliise/learningspringboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eliise/learningspringboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eliise/learningspringboot/Dao/FakeDataDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eliise/learningspringboot/Dao/FakeDataDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eliise/learningspringboot/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eliise/learningspringboot/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eliise/learningspringboot/model/User$Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eliise/learningspringboot/model/User$Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eliise/learningspringboot/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eliise/learningspringboot/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eliise/learningspringboot/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eliise/learningspringboot/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/eliise/learningspringboot/Dao/FakeDataDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/eliise/learningspringboot/Dao/FakeDataDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/eliise/learningspringboot/service/UserServiceTest$AssertUserFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/eliise/learningspringboot/service/UserServiceTest$AssertUserFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/eliise/learningspringboot/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/eliise/learningspringboot/service/UserServiceTest.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WCMaDUTaR6DZWwt6k6cBmRSfz9" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LearningSpringBootApplication">
+    <configuration name="LearningSpringBootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eliise.learningspringboot.LearningSpringBootApplication" />
+      <module name="learning-spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eliise.learningspringboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.shouldInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learning-spring-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eliise.learningspringboot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eliise.learningspringboot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.eliise.learningspringboot.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="shouldInsertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LearningSpringBootApplication" />
+        <item itemvalue="JUnit.UserServiceTest.shouldInsertUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4540700f-1b18-4972-a3ce-b21b490c4f1a" name="Default Changelist" comment="" />
+      <created>1578649185004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578649185004</updated>
+    </task>
+    <task id="LOCAL-00001" summary="spring">
+      <created>1578649253505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578649253505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learning_spring_boot$LearningSpringBootApplication.ic" NAME="LearningSpringBootApplication Coverage Results" MODIFIED="1578656104592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.eliise.learningspringboot.*</FILTER>
+    </SUITE>
   </component>
 </project>

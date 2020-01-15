@@ -29,7 +29,7 @@ class FakeDataDaoTest {
 
         assertThat(user.getAge()).isEqualTo(22);
         assertThat(user.getFirstName()).isEqualTo("Joe");
-        assertThat(user.getLastNamee()).isEqualTo("Jones");
+        assertThat(user.getLastName()).isEqualTo("Jones");
         assertThat(user.getGender()).isEqualTo(User.Gender.MALE);
         assertThat(user.getEmail()).isEqualTo("joe.jones@gmail.com");
         assertThat(user.getUserUid()).isNotNull();

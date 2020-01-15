@@ -67,7 +67,7 @@ class UserServiceTest {
     }
 
     @Test
-    void shoouldUpdateUser() throws Exception {
+    void shouldUpdateUser() throws Exception {
         UUID annaUid = UUID.randomUUID();
         User anna = new User(annaUid, "Anna", "Aser",
                 User.Gender.FEMALE, 20, "asdfgh@gmail.com");
@@ -118,11 +118,11 @@ class UserServiceTest {
 
         int insertResult = userService.insertUser(anna);
 
-        verify(fakeDataDao).insertUser(any(UUID.class)), captor.capture();
+        verify(fakeDataDao).insertUser(any(UUID.class), captor.capture());
 
         User user = captor.getValue();
 
-        assertUserFieelds(user);
+        new AssertUserFields(user);
         assertThat(insertResult).isEqualTo(1);
     }
 
@@ -136,10 +136,11 @@ class UserServiceTest {
         public void invoke() {
             assertThat(user.getAge()).isEqualTo(20);
             assertThat(user.getFirstName()).isEqualTo("Anna");
-            assertThat(user.getLastNamee()).isEqualTo("Aser");
+            assertThat(user.getLastName()).isEqualTo("Aser");
             assertThat(user.getGender()).isEqualTo(User.Gender.FEMALE);
             assertThat(user.getEmail()).isEqualTo("asdfgh@gmail.com");
             assertThat(user.getUserUid()).isInstanceOf(UUID.class);
+            assertThat(user.getUserUid()).isNotNull();
         }
     }
 }
